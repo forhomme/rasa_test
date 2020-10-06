@@ -19,9 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63cece40-18ae-49f1-853e-179cfba5d5ea" name="Default Changelist" comment="">
+    <list default="true" id="63cece40-18ae-49f1-853e-179cfba5d5ea" name="Default Changelist" comment="add docker">
+      <change afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +94,19 @@
       <workItem from="1601607662611" duration="52000" />
       <workItem from="1601660034622" duration="3778000" />
       <workItem from="1601734140871" duration="11583000" />
-      <workItem from="1601785989630" duration="6424000" />
+      <workItem from="1601785989630" duration="7149000" />
+      <workItem from="1601866458623" duration="258000" />
+      <workItem from="1601952542560" duration="2352000" />
+      <workItem from="1601963530741" duration="15853000" />
     </task>
+    <task id="LOCAL-00001" summary="add docker">
+      <created>1601804613439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601804613439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +124,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docker" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601965420124">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="533" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1600.873@0.27.1600.873" timestamp="1601965420124" />
+    <state x="150" y="103" width="1280" height="735" key="MergeDialog" timestamp="1601804656166">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="150" y="103" width="1280" height="735" key="MergeDialog/0.27.1600.873@0.27.1600.873" timestamp="1601804656166" />
+    <state x="431" y="226" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1601804656171">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="431" y="226" width="728" height="482" key="MultipleFileMergeDialog/0.27.1600.873@0.27.1600.873" timestamp="1601804656171" />
+    <state x="395" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601804677228">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="395" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1601804677228" />
+    <state x="475" y="252" width="640" height="430" key="git4idea.merge.GitPullDialog" timestamp="1601804630928">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="475" y="252" width="640" height="430" key="git4idea.merge.GitPullDialog/0.27.1600.873@0.27.1600.873" timestamp="1601804630928" />
     <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1601137487244">
       <screen x="0" y="27" width="1600" height="873" />
     </state>

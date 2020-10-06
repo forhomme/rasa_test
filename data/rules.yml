@@ -1,13 +1,59 @@
 version: "2.0"
-
 rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+    - intent: goodbye
+    - action: utter_goodbye
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: Say no worries after thanks
+    steps:
+    - intent: thankyou
+    - action: utter_no_worries
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: if thanks after result, say goodbye
+    steps:
+    - action: utter_slots_values
+    - intent: thankyou
+    - action: utter_no_worries
+    - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+  - rule: ask diet questions
+    steps:
+    - intent: ask_eat_healthy
+    - action: utter_diet_info
+
+  - rule: ask stress questions
+    steps:
+    - intent: ask_lower_stress
+    - action: utter_stress_info
+
+  - rule: ask exercise questions
+    steps:
+    - intent: ask_exercise
+    - action: utter_exercise_info
+
+  - rule: activate health form
+    steps:
+    - action: utter_greet
+    - intent: affirm
+    - action: health_form
+    - active_loop: health_form
+
+  - rule: no health form
+    steps:
+    - action: utter_greet
+    - intent: deny
+    - action: utter_goodbye
+
+  - rule: submit form
+    condition:
+    - active_loop: health_form
+    steps:
+    - action: health_form
+    - active_loop: null
+    - action: utter_slots_values

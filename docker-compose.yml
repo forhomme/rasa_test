@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
   rasa:
-    image: rasa/rasa:2.0.0rc3-full
+    image: rasa/rasa:2.0.0rc4-full
     networks: ['rasa-network']
     ports:
     - "5005:5005"

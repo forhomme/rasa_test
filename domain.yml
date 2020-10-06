@@ -19,19 +19,33 @@ entities:
 - stress
 slots:
   confirm_exercise:
-    type: unfeaturized
+    type: bool
+    influence_conversation: false
+    auto_fill: false
   diet:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
   exercise:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
   goal:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
   requested_slot:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
   sleep:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
   stress:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
+    auto_fill: false
 responses:
   utter_greet:
   - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health?
@@ -58,7 +72,7 @@ responses:
   utter_no_worries:
   - text: No problem :)
   utter_ask_continue:
-  - text: Sorry, I don't quite understand. Do you want to continue?
+  - text: Sorry. Do you want to continue?
   utter_stress_level:
   - text: High level stress can cause some physical and mental symptoms, like headache, muscle tension, stomach problems, difficulty concentrating, and constantly worrying
   utter_stress_info:

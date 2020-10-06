@@ -23,6 +23,7 @@ cryptography==3.1.1
 cycler==0.10.0
 cymem==2.0.3
 decorator==4.4.2
+dm-tree==0.1.5
 dnspython==1.16.0
 docopt==0.6.2
 en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.5/en_core_web_md-2.2.5.tar.gz
@@ -89,7 +90,7 @@ python-telegram-bot==12.8
 pytz==2020.1
 PyYAML==5.3.1
 questionary==1.5.2
-rasa==2.0.0rc1
+rasa==2.0.0rc4
 rasa-sdk==2.0.0rc1
 redis==3.5.3
 regex==2020.6.8
@@ -124,8 +125,8 @@ tensorboard-plugin-wit==1.7.0
 tensorflow==2.3.0
 tensorflow-addons==0.11.2
 tensorflow-estimator==2.3.0
-tensorflow-hub==0.8.0
-tensorflow-probability==0.10.1
+tensorflow-hub==0.9.0
+tensorflow-probability==0.11.1
 tensorflow-text==2.3.0
 termcolor==1.1.0
 terminaltables==3.1.0
