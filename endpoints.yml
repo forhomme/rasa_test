@@ -29,8 +29,8 @@ tracker_store:
     type: mongod
     url: mongodb://localhost:27017
     db: rasa
-    username: rasauser
-    password: sandiaman123
+    username: ****
+    password: ****
     collection: conversations
 
 # Event broker which all conversation events should be streamed to.
